@@ -1,6 +1,6 @@
 # Minimal tileset viewer 
 
-The goal is to provide a fast way to visualize a tileset. It is based on 3d-tileset-viewer. 
+The goal is to provide a fast way to visualize a tileset. It is based on [3d-tileset-viewer](https://github.com/nytimes/three-loader-3dtiles). 
 
 ## How to install
  ```
