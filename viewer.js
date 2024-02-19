@@ -137,7 +137,7 @@ await loadTileset(tilesetPath);
 
 async function loadTileset( tilesetPath ) {
 
-  let material = new MeshPhongMaterial({ color: 0xff7f50, wireframe: true, transparent: true, opacity: 1, flatShading: true });
+  let material = new MeshPhongMaterial({ color: 0xffffff, wireframe: true, transparent: true, opacity: 1, flatShading: false });
   const result = await Loader3DTiles.load({
     url: tilesetPath,
     renderer: renderer,
