@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "three": "^0.137.5",
+    "three-loader-3dtiles": "^1.1.17"
+  }
+}
