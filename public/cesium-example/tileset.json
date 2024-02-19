@@ -1,0 +1,95 @@
+{
+  "asset": {
+    "version": "1.0"
+  },
+  "geometricError": 500,
+  "root": {
+    "transform": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "boundingVolume": {
+      "box": [
+        0,
+        0,
+        0,
+        7.0955,
+        0,
+        0,
+        0,
+        3.1405,
+        0,
+        0,
+        0,
+        5.0375
+      ]
+    },
+    "geometricError": 1,
+    "refine": "REPLACE",
+    "content": {
+      "uri": "dragon_low.b3dm"
+    },
+    "children": [
+      {
+        "boundingVolume": {
+          "box": [
+            0,
+            0,
+            0,
+            7.0955,
+            0,
+            0,
+            0,
+            3.1405,
+            0,
+            0,
+            0,
+            5.0375
+          ]
+        },
+        "geometricError": 0.1,
+        "content": {
+          "uri": "dragon_medium.b3dm"
+        },
+        "children": [
+          {
+            "boundingVolume": {
+              "box": [
+                0,
+                0,
+                0,
+                7.0955,
+                0,
+                0,
+                0,
+                3.1405,
+                0,
+                0,
+                0,
+                5.0375
+              ]
+            },
+            "geometricError": 0,
+            "content": {
+              "uri": "dragon_high.b3dm"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
