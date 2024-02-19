@@ -32,11 +32,13 @@ const camera = new PerspectiveCamera(
 camera.fov = 80;
 camera.position.x = 0;
 camera.position.y = 0;
-camera.position.z = 100;
+camera.position.z = 20;
 camera.up.set(0,0,1);
 
-// control parameters
-let flyspeed = 1000; 
+// user parameters
+let flyspeed = 100; 
+let showBoundingBox = true;
+let tilesetPath = 'public/cesium-example/tileset.json';
 
 //controls initialization
 let controls = new PointerLockControls(camera, canvasParent)
@@ -131,8 +133,6 @@ document.addEventListener( 'keydown', onKeyDown );
 document.addEventListener( 'keyup', onKeyUp );
 document.addEventListener( 'click', function () { controls.lock(); });
 
-let showBoundingBox = true;
-let tilesetPath = 'public/budda_png/tileset.json';
 await loadTileset(tilesetPath);
 
 async function loadTileset( tilesetPath ) {
